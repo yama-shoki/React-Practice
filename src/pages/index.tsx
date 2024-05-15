@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import Link from 'next/link';
+=======
+import { Contents } from '@/components/common/Contents';
+>>>>>>> ab936b8 (first commit)
 
 const index = (): JSX.Element => {
   return (
     <div className=" mx-auto mt-10 max-w-4xl ">
+<<<<<<< HEAD
       <div>
         <div className=" flex flex-col items-center ">
           <h2 className="text-5xl ">React学習</h2>
@@ -62,6 +67,9 @@ const index = (): JSX.Element => {
           </div>
         </div>
       </div>
+=======
+      <Contents />
+>>>>>>> ab936b8 (first commit)
     </div>
   );
 };
