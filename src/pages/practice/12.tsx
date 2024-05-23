@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import { NextPage } from 'next';
-import Link from 'next/link';
-
-const Page: NextPage = () => {
-  return (
-    <div className=" mx-auto mt-8 max-w-4xl ">
-=======
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { NextPage } from 'next';
 import Link from 'next/link';
@@ -50,7 +42,6 @@ const Page: NextPage = () => {
           </div>
         </div>
       </div>
->>>>>>> ab936b8 (first commit)
       <div className="mt-5  flex justify-center text-4xl">
         <Link href="/">ホームへ戻る</Link>
       </div>

@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 import Link from 'next/link';
-=======
-import { Contents } from '@/components/common/Contents';
->>>>>>> ab936b8 (first commit)
 
 const index = (): JSX.Element => {
   return (
     <div className=" mx-auto mt-10 max-w-4xl ">
-<<<<<<< HEAD
       <div>
         <div className=" flex flex-col items-center ">
           <h2 className="text-5xl ">React学習</h2>
@@ -63,13 +58,30 @@ const index = (): JSX.Element => {
             <Link href="practice/14">14:日記アプリ</Link>
           </div>
           <div className="  mt-7">
-            <Link href="practice/15">15:React-hook-form</Link>
+            <Link href="practice/15">15:TODOアプリ2</Link>
+          </div>
+
+          <div className="  mt-7">
+            <Link href="practice/16">16:pokemon API useSWR</Link>
+          </div>
+
+          <div className="  mt-7">
+            <Link href="practice/17">17:ユーザー検索アプリ</Link>
+          </div>
+
+          <div className="  mt-7">
+            <Link href="practice/18">18:React-hook-form</Link>
+          </div>
+
+          <div className="  mt-7">
+            <Link href="practice/19">19:StarWars API</Link>
+          </div>
+
+          <div className="  mt-7">
+            <Link href="practice/20">20:React-hook-form</Link>
           </div>
         </div>
       </div>
-=======
-      <Contents />
->>>>>>> ab936b8 (first commit)
     </div>
   );
 };

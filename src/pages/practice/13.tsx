@@ -1,11 +1,6 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
 
-<<<<<<< HEAD
-const Page: NextPage = () => {
-  return (
-    <div className=" mx-auto mt-8 max-w-4xl ">
-=======
 import Button from '@/components/common/parts/Button';
 import { useTodoApp } from '@/hooks/useTodoApp';
 
@@ -61,7 +56,6 @@ const Page: NextPage = () => {
         </div>
       </div>
 
->>>>>>> ab936b8 (first commit)
       <div className="mt-5  flex justify-center text-4xl">
         <Link href="/">ホームへ戻る</Link>
       </div>

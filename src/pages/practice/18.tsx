@@ -35,7 +35,6 @@ const Page: NextPage = () => {
     handleSubmit,
     reset,
     watch,
-    getValues,
     register,
     formState: { errors },
   } = useForm<FormInput>({
@@ -84,7 +83,6 @@ const Page: NextPage = () => {
               {...register('name')}
               className={`w-full rounded border px-4 py-2 text-input outline-none placeholder:text-theme-light ${errors.name ? 'border-error' : 'border-theme-medium'}`}
             />
-            <div>{watch('name')}</div>
             {errors.name && <div className="mt-1 text-body3 text-error">{errors.name.message}</div>}
           </div>
 
@@ -97,7 +95,7 @@ const Page: NextPage = () => {
               {...register('email')}
               className={`w-full rounded border px-4 py-2 text-input outline-none placeholder:text-theme-light ${errors.email ? 'border-error' : 'border-theme-medium'}`}
             />
-            <div>{watch('email')}</div>
+            {/* <div>{watch('email')}</div> */}
             {errors.email && (
               <div className="mt-1 text-body3 text-error">{errors.email.message}</div>
             )}
@@ -112,7 +110,6 @@ const Page: NextPage = () => {
               {...register('password')}
               className={`w-full rounded border px-4 py-2 text-input outline-none placeholder:text-theme-light ${errors.password ? 'border-error' : 'border-theme-medium'}`}
             />
-            <div>{getValues('password')}</div>
             {errors.password && (
               <div className="mt-1 text-body3 text-error">{errors.password.message}</div>
             )}
